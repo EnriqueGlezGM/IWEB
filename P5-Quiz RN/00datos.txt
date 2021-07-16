@@ -1,0 +1,66 @@
+##################################
+##### Integrantes del equipo #####
+##################################
+
+
+Roberto Martín Luengo
+Pablo Muñoz de Morales
+Enrique Gonzalez Macias
+
+
+##################################
+########### Plataforma ###########
+##################################
+
+La plataforma en la que se ha realizado la práctica ha sido Android, concretamente se ha utilizado el emulador Android Studio para realizarla. El telefono empleado ha sido un Pixel 4 API 29
+También se ha probado la práctica en los terminales físicos Iphone y Ipad.
+Se adjuntan capturas de la aplicación en el telefono Pixel.
+
+
+
+##################################
+###########  Mejoras  ############
+##################################
+
+
+----Personalización de los estilos (CSS, animaciones, diseño original, etc.).----
+	
+	Se han añadido una amplia variedad de estilos. Se ha dividido la aplicacion con contenedores Flex, separando las distintas zonas del juego para mayor claridad y mejor jugabilidad. Además, se han editado todos los componentes dando estilos con Stylesheet, empezando de arriba a abajo, en navBar se ha colocado uniformemente el contenido, cambiado el estilo del texto, tamaño, color y borde. En IndexBar, se ha hecho uso de de dos estilos distintos para que cambie el estilo del botón dependiendo de si se está en el currentQuiz, cambiando a la vez que el quiz. Luego, el contenido del juego uniformemente distribuido para evitar solapamientos y en caso de que la pantalla se comprima, como sucede cuando aparece el teclado, se ha hecho uso en ese caso de un ScrollView que evita que se descuadre todo. La imagen esta ajustada en función de su tamaño. Además, en ActionBar, se ha sustituido el texto de los botones por unos iconos. En conclusión, se ha intentado mantener los estilos CSS de la practica anterior y adaptarlos de tal forma que quede todo parecido a la version de navegador.
+
+
+
+​----Botón de reset que pida un conjunto nuevo de quizzes al servidor y reinicie el juego.----
+
+	Dicho botón se ha añadido a la izquierda del ActionBar, se puede hacer click en cualquier momento del juego.
+	
+	 
+
+​----Cuenta atrás que limite el tiempo que tiene el usuario para responder las preguntas y termine el juego si se acaba el tiempo.----
+
+	Se ha añadido la mejora de que en vez de poner simplemente el valor de timer, se visualice como un temporizador en minutos y segundos. Aqui además se ha añadido la mejora visual de que si quedan menos de 15 segundos el temporizador se pone en rojo (al estar llegando al final del tiempo permitido). Se da un tiempo de 3 minutos
+	
+	
+		
+----Pantalla final en Score que además de mostrar tu puntuación, hace un resumen de respuestas----
+
+	Añadido en la pantalla final, debajo de la puntuación obtenida, un resumen del numero de las preguntas, la pregunta en si y la calificación en la respuesta. Hay tres opciones posibles en este escenario: Sin responder (Texto en naranja), CORRECTA (Texto en verde), INCORRECTA (Texto en rojo)
+	
+
+----Navegación----
+
+	Se ha añadido una navegación formada por dos pantallas. La primera pantalla muestra únicamente la cabecera navBar, una imagen y un botón play para empezar el cuestionario. La segunda pantalla
+muestra el juego, el cual presenta un botón adicional para regresar a la primera pantalla, Home. 
+	
+	
+----Almacenamiento de preguntas----
+
+	Se han añadido tres botones a la pantalla que muestra el quiz:
+	
+		Save: guarda las preguntas del cuestionario actual mediante la API AsyncStorage.
+		Load: reinicia el cuestionario con las preguntas que han sido previamente almacenadas. En caso de que no haya ninguna pregunta almacenada, la aplicación muestra un alert.
+		Remove: borra las preguntas previamente almacenadas. 
+		
+	Después de pulsar un botón, se muestra un alert indicando si la operación ha sido realizada con éxito o si ha ocurrido algún problema.
+	
+
+
