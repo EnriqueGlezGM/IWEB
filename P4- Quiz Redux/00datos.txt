@@ -1,0 +1,59 @@
+##################################
+##### Integrantes del equipo #####
+##################################
+
+
+Roberto Martín Luengo
+Pablo Muñoz de Morales
+Enrique Gonzalez Macias
+
+
+##################################
+###########  Mejoras  ############
+##################################
+
+
+----Personalización de los estilos (CSS, animaciones, diseño original, spinner, etc.).----
+	
+	Se han añadido una amplia variedad de estilos. Se ha dividido la aplicacion con contenedores Flex, separando las distintas zonas del juego para mayor claridad y mejor jugabilidad. Además, se han editado todos los componentes con distintas reglas CSS, empezando de arriba a abajo, en navBar se ha colocado uniformemente el contenido, cambiado el estilo del texto, tamaño, color, borde e incluso una imagen de fondo. En IndexBar, se ha hecho uso de hover para que al pasar el ratón por encima cambie el estilo del botón y se ha mantenido dicho estilo cuando se está en el currentQuiz, cambiando a la vez que el quiz. Además, cuando se registra una respuesta en el input se cambia el boton del quiz en el que estas respondiendo pr un icono como que esta respondida, para que al llegar al final se pueda ver mas claro si se deja alguna sin responder. En el apartado de la question se han añadido algunas mejoras visuales extra como la sombra, margin o font. En el input se hace un autofocus en la pregunta actual mediante la propiedad autofocus del input y se mantiene el autofocus a la siguiente pregunta gracias a la funcion componentDidUpdate. Misma mecanica en la creación de estilos para el autor. En ActionBar situación analoga a IndexBar en cuanto a estilo, aparece un icono al pasar el raton por encima cambiando de color y estilo del botón.
+
+
+
+​----Botón de reset que pida un conjunto nuevo de quizzes al servidor y reinicie el juego.----
+
+	Dicho botón se ha añadido a la izquierda del ActionBar, se puede hacer click en cualquier momento del juego.
+	
+	 
+
+​----Cuenta atrás que limite el tiempo que tiene el usuario para responder las preguntas y termine el juego si se acaba el tiempo.----
+
+	Se ha añadido la mejora de que en vez de poner simplemente el valor de timer, se visualice como un temporizador en minutos y segundos. Aqui además se ha añadido la mejora visual de que si quedan menos de 15 segundos el temporizador se pone en rojo (al estar llegando al final del tiempo permitido). Se da un tiempo de 3 minutos
+	
+	
+	
+----Conseguir que al pulsar la tecla enter dentro del input de texto se pase al siguiente quiz o, si es la última, que termine el juego comprobando el numero de aciertos.----
+	
+	Función implementada en Content.js en la función componentDidMount haciendo uso de addEventListener y un boton (no se muestra, display none)
+	
+	
+	
+----Lograr que la aplicación cumpla con las recomendaciones de accesibilidad del W3C​----
+
+	Se ha logrado que la aplicación cumpla con las recomendaciones de accesibilidad del W3C tanto con el plugin, ya que en la terminal al arrancar el proyecto no aparece ningun warning 'Compiled successfully!' y también mediante la extensión de Chrome SiteImprove
+	
+	
+		
+----Pantalla final en Score que además de mostrar tu puntuación, hace un resumen de respuestas----
+
+	Añadido en la pantalla final, debajo de la puntuación obtenida, un resumen del numero de las preguntas, la pregunta en si y la calificación en la respuesta. Hay tres opciones posibles en este escenario: Sin responder (Texto en naranja), CORRECTA (Texto en verde), INCORRECTA (Texto en rojo)
+	
+
+
+----Nueva vista de la imagen del Quiz----
+
+	Se ha añadido una opción adicional de ver la imagen adjunta al quiz a pantalla completa, para poder ver todos los detalles que puedan ayudar a la respuesta. Para activar esta opción tan solo es necesario hacer click en la imagen.
+	
+	
+	
+
+
