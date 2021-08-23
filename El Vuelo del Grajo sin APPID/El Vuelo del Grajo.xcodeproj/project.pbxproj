@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE516CA12550058600C18E6C /* CityEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE516CA02550058600C18E6C /* CityEditorView.swift */; };
+		DE610438254F022E00337B1D /* El_Vuelo_del_GrajoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE610437254F022E00337B1D /* El_Vuelo_del_GrajoApp.swift */; };
+		DE61043A254F022E00337B1D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE610439254F022E00337B1D /* ContentView.swift */; };
+		DE61043C254F022E00337B1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE61043B254F022E00337B1D /* Assets.xcassets */; };
+		DE61043F254F022E00337B1D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE61043E254F022E00337B1D /* Preview Assets.xcassets */; };
+		DE610449254F02A000337B1D /* CitiesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE610448254F02A000337B1D /* CitiesModel.swift */; };
+		DE61044D254F05D000337B1D /* CityWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE61044C254F05D000337B1D /* CityWeatherView.swift */; };
+		DE610450254F069300337B1D /* CityWeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE61044F254F069300337B1D /* CityWeatherModel.swift */; };
+		DE610453254F078200337B1D /* CheckAPIId.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE610452254F078200337B1D /* CheckAPIId.swift */; };
+		DE610456254F0BCB00337B1D /* WeatherMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE610455254F0BCB00337B1D /* WeatherMap.swift */; };
+		DE610459254F206000337B1D /* Text2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE610458254F206000337B1D /* Text2.swift */; };
+		DE610462254F276B00337B1D /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE610461254F276B00337B1D /* MapView.swift */; };
+		DE610465254F2B6200337B1D /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE610464254F2B6200337B1D /* Launch Screen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DE516CA02550058600C18E6C /* CityEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityEditorView.swift; sourceTree = "<group>"; };
+		DE610434254F022E00337B1D /* El Vuelo del Grajo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "El Vuelo del Grajo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE610437254F022E00337B1D /* El_Vuelo_del_GrajoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = El_Vuelo_del_GrajoApp.swift; sourceTree = "<group>"; };
+		DE610439254F022E00337B1D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DE61043B254F022E00337B1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE61043E254F022E00337B1D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DE610440254F022E00337B1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE610448254F02A000337B1D /* CitiesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesModel.swift; sourceTree = "<group>"; };
+		DE61044C254F05D000337B1D /* CityWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityWeatherView.swift; sourceTree = "<group>"; };
+		DE61044F254F069300337B1D /* CityWeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityWeatherModel.swift; sourceTree = "<group>"; };
+		DE610452254F078200337B1D /* CheckAPIId.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckAPIId.swift; sourceTree = "<group>"; };
+		DE610455254F0BCB00337B1D /* WeatherMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherMap.swift; sourceTree = "<group>"; };
+		DE610458254F206000337B1D /* Text2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text2.swift; sourceTree = "<group>"; };
+		DE610461254F276B00337B1D /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		DE610464254F2B6200337B1D /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE610431254F022E00337B1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE61042B254F022E00337B1D = {
+			isa = PBXGroup;
+			children = (
+				DE610436254F022E00337B1D /* El Vuelo del Grajo */,
+				DE610435254F022E00337B1D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE610435254F022E00337B1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE610434254F022E00337B1D /* El Vuelo del Grajo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE610436254F022E00337B1D /* El Vuelo del Grajo */ = {
+			isa = PBXGroup;
+			children = (
+				DE610447254F028300337B1D /* Models */,
+				DE610437254F022E00337B1D /* El_Vuelo_del_GrajoApp.swift */,
+				DE610439254F022E00337B1D /* ContentView.swift */,
+				DE61044C254F05D000337B1D /* CityWeatherView.swift */,
+				DE610461254F276B00337B1D /* MapView.swift */,
+				DE610452254F078200337B1D /* CheckAPIId.swift */,
+				DE516CA02550058600C18E6C /* CityEditorView.swift */,
+				DE610458254F206000337B1D /* Text2.swift */,
+				DE61043B254F022E00337B1D /* Assets.xcassets */,
+				DE610440254F022E00337B1D /* Info.plist */,
+				DE61043D254F022E00337B1D /* Preview Content */,
+				DE610464254F2B6200337B1D /* Launch Screen.storyboard */,
+			);
+			path = "El Vuelo del Grajo";
+			sourceTree = "<group>";
+		};
+		DE61043D254F022E00337B1D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DE61043E254F022E00337B1D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DE610447254F028300337B1D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DE610448254F02A000337B1D /* CitiesModel.swift */,
+				DE610455254F0BCB00337B1D /* WeatherMap.swift */,
+				DE61044F254F069300337B1D /* CityWeatherModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE610433254F022E00337B1D /* El Vuelo del Grajo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE610443254F022E00337B1D /* Build configuration list for PBXNativeTarget "El Vuelo del Grajo" */;
+			buildPhases = (
+				DE610430254F022E00337B1D /* Sources */,
+				DE610431254F022E00337B1D /* Frameworks */,
+				DE610432254F022E00337B1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "El Vuelo del Grajo";
+			productName = "El Vuelo del Grajo";
+			productReference = DE610434254F022E00337B1D /* El Vuelo del Grajo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE61042C254F022E00337B1D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					DE610433254F022E00337B1D = {
+						CreatedOnToolsVersion = 12.1;
+					};
+				};
+			};
+			buildConfigurationList = DE61042F254F022E00337B1D /* Build configuration list for PBXProject "El Vuelo del Grajo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE61042B254F022E00337B1D;
+			productRefGroup = DE610435254F022E00337B1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE610433254F022E00337B1D /* El Vuelo del Grajo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE610432254F022E00337B1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE610465254F2B6200337B1D /* Launch Screen.storyboard in Resources */,
+				DE61043F254F022E00337B1D /* Preview Assets.xcassets in Resources */,
+				DE61043C254F022E00337B1D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE610430254F022E00337B1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE610453254F078200337B1D /* CheckAPIId.swift in Sources */,
+				DE610456254F0BCB00337B1D /* WeatherMap.swift in Sources */,
+				DE61043A254F022E00337B1D /* ContentView.swift in Sources */,
+				DE610450254F069300337B1D /* CityWeatherModel.swift in Sources */,
+				DE61044D254F05D000337B1D /* CityWeatherView.swift in Sources */,
+				DE610459254F206000337B1D /* Text2.swift in Sources */,
+				DE610449254F02A000337B1D /* CitiesModel.swift in Sources */,
+				DE516CA12550058600C18E6C /* CityEditorView.swift in Sources */,
+				DE610462254F276B00337B1D /* MapView.swift in Sources */,
+				DE610438254F022E00337B1D /* El_Vuelo_del_GrajoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DE610441254F022E00337B1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DE610442254F022E00337B1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE610444254F022E00337B1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"El Vuelo del Grajo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "El Vuelo del Grajo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "es.upm.El-Vuelo-del-Grajo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE610445254F022E00337B1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"El Vuelo del Grajo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "El Vuelo del Grajo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "es.upm.El-Vuelo-del-Grajo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE61042F254F022E00337B1D /* Build configuration list for PBXProject "El Vuelo del Grajo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE610441254F022E00337B1D /* Debug */,
+				DE610442254F022E00337B1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE610443254F022E00337B1D /* Build configuration list for PBXNativeTarget "El Vuelo del Grajo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE610444254F022E00337B1D /* Debug */,
+				DE610445254F022E00337B1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE61042C254F022E00337B1D /* Project object */;
+}
